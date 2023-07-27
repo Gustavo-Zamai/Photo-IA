@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Web page layout de uma aplicação de IA que transforma imagens">
-    <meta name="author" content="Gustavo Simão Zamai">
-    <title>Imagem com IA</title>
-
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Comparador de Imagens</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
-        
+    <main class="image-container">
+        <picture class="after-image">
+            <img src="assets/images/after-img.png" alt="Imagem de Boa Qualidade" class="good-quality" id="good-quality">
+        </picture>
+        <picture class="before-image">
+            <img src="assets/images/before-img.png" alt="Imagem de Qualidade Ruim" class="bad-quality" id="bad-quality">
+        </picture>
+        <input type="range" min="0" max="100" value="50" id="slider">
 
-
-
+        <div id="dragger">
+          <img src="assets/images/Exclude.svg" alt="Botão para mover o slider">
+        </div>
+    </main>
+    <script src="assets/script.js"></script>
 </body>
+
 </html>
