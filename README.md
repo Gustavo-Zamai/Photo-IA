@@ -1,7 +1,7 @@
 <h1 align="center">Desafio 29 - Imagem com IA</h1>
 
 <p align="center">
-. <br/>
+O 29º desafio foi sobre utilizar a inteligência artificial para codar uma Web Page que mostrava um antes e depois de uma mesma imagem, conforme o usuário arrasta o slider/dragger. <br/>
 </p>
 
 <p align="center">
